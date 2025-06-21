@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 3000;
 // Define a route handler for GET requests to the root URL ('/').
 // When a user visits the root of your site, this function will be called.
 app.get("/", (req, res) => {
-  res.status(200).send("Hello, World! This is a sample Express server 101.");
+  res.status(200).send("Hello, World! This is a sample Express server.");
 });
 
 // Define another route for demonstration purposes that returns JSON.
